@@ -1,0 +1,13 @@
+### Create new user
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "firstName": "Germes",
+  "lastName": "Popa",
+  "address": "Saratov",
+  "age": 29
+}
+
+### Get list of users
+GET http://localhost:3000/users
